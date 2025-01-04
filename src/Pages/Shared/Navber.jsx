@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.png'
 
 
 const Navber = () => {
@@ -6,13 +7,13 @@ const Navber = () => {
         <li><Link to='/' className=" font-semibold">Home</Link></li>
     </>
     return (
-        <div className="navbar bg-red-50 md:px-16">
+        <div className="navbar fixed bg-red-50 md:px-16">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
+                            className="h-8 w-8"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -29,7 +30,7 @@ const Navber = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="text-xl font-bold">Md Murad Hossain</a>
+                <img src={logo} alt="" />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
