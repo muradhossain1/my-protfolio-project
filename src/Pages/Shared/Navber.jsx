@@ -7,7 +7,7 @@ const Navber = () => {
         <li><Link to='/' className=" font-semibold">Home</Link></li>
     </>
     return (
-        <div className="navbar fixed bg-red-50 md:px-16">
+        <div className="navbar fixed z-10 bg-red-50 md:px-16 lg:px-32">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-warning">Resume Download</a>
+                <a className="btn btn-warning">Download Resume</a>
             </div>
         </div>
     );
