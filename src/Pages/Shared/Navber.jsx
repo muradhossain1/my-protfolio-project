@@ -6,8 +6,9 @@ const Navber = () => {
     const links = <>
         <li><Link to='/' className=" font-semibold">Home</Link></li>
         <li><a href="#about" className=" font-semibold">About</a></li>
-        <li><a href="#education" className=" font-semibold">Qualification</a></li>
         <li><a href="#skills" className=" font-semibold">Skills</a></li>
+        <li><a href="#education" className=" font-semibold">Qualification</a></li>
+        <li><a href="#contact" className=" font-semibold">Contact</a></li>
     </>
     return (
         <div className="navbar fixed z-10 bg-red-50 md:px-16 lg:px-32">
