@@ -5,6 +5,7 @@ import logo from '../../assets/logo.png'
 const Navber = () => {
     const links = <>
         <li><Link to='/' className=" font-semibold">Home</Link></li>
+        <li><a href="#about" className=" font-semibold">About</a></li>
     </>
     return (
         <div className="navbar fixed z-10 bg-red-50 md:px-16 lg:px-32">

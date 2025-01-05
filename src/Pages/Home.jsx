@@ -1,3 +1,4 @@
+import About from "../Components/About";
 import Banner from "../Components/Banner";
 
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <div className="pt-16">
                 <Banner></Banner>
+                <About></About>
             </div>
         </div>
     );
