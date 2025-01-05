@@ -3,7 +3,7 @@
 const Qualification = () => {
     return (
         <div id="education">
-            <div  className=" bg-base-200 rounded-lg lg:mx-16">
+            <div  className=" bg-base-200 rounded-lg lg:mx-16 mt-12">
                 <div>
                     <h2 className="text-4xl font-bold text-center pt-6 drop-shadow-xl">Educational Qualification</h2>
                 </div>
