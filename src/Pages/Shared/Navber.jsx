@@ -7,6 +7,7 @@ const Navber = () => {
         <li><Link to='/' className=" font-semibold">Home</Link></li>
         <li><a href="#about" className=" font-semibold">About</a></li>
         <li><a href="#education" className=" font-semibold">Qualification</a></li>
+        <li><a href="#skills" className=" font-semibold">Skills</a></li>
     </>
     return (
         <div className="navbar fixed z-10 bg-red-50 md:px-16 lg:px-32">
@@ -40,7 +41,7 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-warning">Download Resume</a>
+            <button className="btn btn-warning"><a href="https://docs.google.com/document/d/131WNZm2lq1rDpgRlpaM0Vd6o5csmT7x2XflFD55IoL0/edit?tab=t.0" target="_blank">Download Resume</a></button>
             </div>
         </div>
     );
