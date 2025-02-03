@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <div id="about" className="flex flex-col md:flex-row gap-6 md:gap-12 w-full lg:px-16 mt-8">
+        <div id="about" className="flex flex-col md:flex-row gap-6 md:gap-12 w-full lg:px-16 mt-12">
             <div className=" md:w-1/3 md:p-4 ">
                 <h2 className="text-4xl font-bold drop-shadow-xl lg:ml-6">About me</h2>
             </div>

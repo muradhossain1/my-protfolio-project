@@ -5,19 +5,27 @@ import twitterImg from '../assets/twitter.png'
 import linkedinImg from '../assets/linkedin.png'
 import { motion } from "motion/react"
 import { Typewriter } from 'react-simple-typewriter'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Banner = () => {
+    
     return (
-        <div className="rounded-lg lg:mx-16 md:h-96 mt-10">
+        <div className="rounded-lg lg:mx-16 md:h-96 mt-12">
             <div className="hero-content flex-col md:flex-row-reverse">
-                <div className="md:w-1/2">
+                <motion.div
+                    data-aos='zoom-in'
+                    data-aos-duration="1000"
+                    className="md:w-1/2">
                     <motion.img
                         animate={{ x: [0, 80, 0] }}
                         transition={{ duration: 8, repeat: Infinity }}
                         src={profileImg}
                         className="mx-auto rounded-lg shadow-2xl" />
-                </div>
-                <div className="md:w-1/2 space-y-6 ">
+                </motion.div>
+                <div data-aos='fade-down' data-aos-duration="1000" className="md:w-1/2 space-y-6 ">
                     <div>
                         <h1 className="text-4xl font-bold"> Hi! <br></br> I&apos;m Murad Hossain</h1>
                         <p className="text-blue-600 uppercase mt-2 text-3xl font-bold">

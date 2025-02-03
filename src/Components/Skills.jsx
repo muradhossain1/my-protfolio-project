@@ -5,6 +5,10 @@ import reactIcon from '../assets/icons/react.png'
 import nodeIcon from '../assets/icons/node.png'
 import firebaseIcon from '../assets/icons/firebase.png'
 import mongodbcon from '../assets/icons/mongodb.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Skills = () => {
     return (
@@ -13,8 +17,8 @@ const Skills = () => {
                 <h2 className="text-4xl font-bold text-center pt-6 drop-shadow-xl">My Skills</h2>
                 <p className="lg:px-48 mt-2 text-base font-medium text-gray-600 text-center">My expertise lies in both frontend and backend development, with proficiency in modern technologies such as HTML, CSS, JavaScript, React, and Node.js</p>
             </div>
-            <div className="flex flex-col lg:flex-row gap-6 mt-6">
-                <div className="rounded-lg lg:w-1/2 bg-red-50 shadow-md lg:mb-6 py-4 space-y-2 text-center lg:pt-12">
+            <div  className="flex flex-col lg:flex-row gap-6 mt-6">
+                <div data-aos='fade-right' data-aos-duration="1000" className="rounded-lg lg:w-1/2 bg-red-50 shadow-md lg:mb-6 py-4 space-y-2 text-center lg:pt-12">
                     <h2 className="text-2xl uppercase  font-bold">My Focus</h2>
                     <p className="border-2 md:mx-32 border-blue-600"></p>
                     <p className="text-base font-medium ">UI/UX Design</p>
@@ -22,7 +26,7 @@ const Skills = () => {
                     <p className="text-base font-medium ">Web Design</p>
                     <p className="text-base font-medium ">User Friendly</p>
                 </div>
-                <div className="rounded-lg lg:w-1/2 bg-red-50 shadow-md p-8 lg:mb-6 space-y-2 flex flex-col gap-2">
+                <div data-aos='fade-left' data-aos-duration="1000" className="rounded-lg lg:w-1/2 bg-red-50 shadow-md p-8 lg:mb-6 space-y-2 flex flex-col gap-2">
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={htmlIcon} className='w-8' alt="" />

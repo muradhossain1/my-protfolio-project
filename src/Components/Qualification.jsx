@@ -1,4 +1,7 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 
 const Qualification = () => {
     return (
@@ -8,7 +11,8 @@ const Qualification = () => {
                     <h2 className="text-4xl font-bold text-center pt-6 drop-shadow-xl">Educational Qualification</h2>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-6  mt-6">
-                    <div className="rounded-lg lg:w-1/2 bg-red-50 p-8 lg:mb-6 space-y-2 shadow-md">
+                    <div data-aos='fade-right'
+                        data-aos-duration="1000" className="rounded-lg lg:w-1/2 bg-red-50 p-8 lg:mb-6 space-y-2 shadow-md">
                         <h2 className="text-xl  font-bold ">Bachelor of Accounting Department (Honors)</h2>
                         <div>
                             <p className="text-base font-medium">National University of Govt Kodom Rosul Collage</p>
@@ -16,7 +20,8 @@ const Qualification = () => {
                             <p className="text-base font-medium">4th Year On Going</p>
                         </div>
                     </div>
-                    <div className="rounded-lg lg:w-1/2 bg-red-50 p-8 lg:mb-6 space-y-2 shadow-md">
+                    <div data-aos='fade-left'
+                        data-aos-duration="1000" className="rounded-lg lg:w-1/2 bg-red-50 p-8 lg:mb-6 space-y-2 shadow-md">
                         <h2 className="text-xl font-bold ">Higher Secondary Certificate (HSC)</h2>
                         <div>
                             <p className="text-base font-medium">National University of Govt Tolaram Collage</p>

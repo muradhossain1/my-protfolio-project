@@ -1,6 +1,10 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Contact = () => {
     const form = useRef();
@@ -32,7 +36,8 @@ const Contact = () => {
     return (
         <div id='contact' className="lg:mx-16" >
             <h2 className="text-4xl font-bold text-center pt-6 drop-shadow-xl">Contact Information</h2>
-            <div className="max-w-6xl mx-auto bg-red-50 p-6 rounded-lg shadow-md flex flex-col lg:flex-row lg:items-center gap-8 mt-8">
+            <div data-aos='fade-up'
+                data-aos-duration="1000" className="max-w-6xl mx-auto bg-red-50 p-6 rounded-lg shadow-md flex flex-col lg:flex-row lg:items-center gap-8 mt-8">
                 <div className="flex-1">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-4">
