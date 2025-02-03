@@ -2,6 +2,7 @@ import logo from '../../assets/logo.png';
 import githubImg from '../../assets/github.png'
 import facebookImg from '../../assets/facebook.png'
 import linkedinImg from '../../assets/linkedin.png'
+import { motion } from "motion/react"
 
 const Footer = () => {
     return (
@@ -12,15 +13,24 @@ const Footer = () => {
                     <p>© Md Murad Hossain {new Date().getFullYear()} - All right reserved</p>
                 </aside>
                 <div className='flex gap-2'>
-                    <a href="https://github.com/muradhossain1" target="_blank">
+                    <motion.a
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        href="https://github.com/muradhossain1" target="_blank">
                         <img src={githubImg} className='w-8' alt="" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/md-murad-hossain-081036345" target="_blank">
+                    </motion.a >
+                    <motion.a
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        href="https://www.linkedin.com/in/md-murad-hossain-081036345" target="_blank">
                         <img src={linkedinImg} className='w-8' alt="" />
-                    </a>
-                    <a href="https://www.facebook.com/mdmurad.islam.731135" target="_blank">
+                    </motion.a >
+                    <motion.a
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        href="https://www.facebook.com/mdmurad.islam.731135" target="_blank">
                         <img src={facebookImg} className='w-8' alt="" />
-                    </a>
+                    </motion.a >
                 </div>
             </div>
         </div>
