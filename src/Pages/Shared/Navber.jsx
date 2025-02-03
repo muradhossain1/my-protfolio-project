@@ -1,15 +1,11 @@
-import { Link } from "react-router-dom";
 import logo from '../../assets/logo.png'
-
 
 const Navber = () => {
     const links = <>
-        <li><Link to='/' className=" font-semibold">Home</Link></li>
-        <li><a href="#about" className=" font-semibold">About</a></li>
-        <li><a href="#skills" className=" font-semibold">My Skills</a></li>
-        <li><a href="#projects" className=" font-semibold">My Projects</a></li>
-        <li><a href="#education" className=" font-semibold">Qualification</a></li>
-        <li><a href="#contact" className=" font-semibold">Contact Me</a></li>
+        <li><a href="#about" className="text-base font-bold">About</a></li>
+        <li><a href="#skills" className="text-base font-bold">My Skills</a></li>
+        <li><a href="#projects" className="text-base font-bold">My Projects</a></li>
+        <li><a href="#contact" className="text-base font-bold">Contact Me</a></li>
     </>
     return (
         <div className="navbar fixed z-10 bg-red-50 md:px-16 lg:px-32">
@@ -43,7 +39,7 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-            <button className="btn btn-warning"><a href="https://docs.google.com/document/d/131WNZm2lq1rDpgRlpaM0Vd6o5csmT7x2XflFD55IoL0/edit?tab=t.0" target="_blank">Download Resume</a></button>
+                <button className="py-2 px-4 font-semibold  rounded-md bg-blue-600 text-white hover:bg-blue-700"><a href="https://drive.google.com/file/d/1mimEerNs0JdFuhrYhm-TlOp3q0jKx4u9/view" target="_blank">Download Resume</a></button>
             </div>
         </div>
     );

@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <div id="projects" className=" rounded-lg lg:mx-16 mt-4">
             <div>
-                    <h2 className="text-4xl font-bold text-center pt-6 drop-shadow-xl">My Projects</h2>
+                    <h2 className="text-4xl font-bold text-center drop-shadow-xl">My Projects</h2>
                 </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8">
                 {

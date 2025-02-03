@@ -7,34 +7,33 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-    
+
         emailjs
-          .sendForm('service_dw3chiv', 'template_tc6ejbc', form.current, {
-            publicKey: 'OREl3XdEFDkvRoa5K',
-          })
-          .then(
-            () => {
-              console.log('SUCCESS!');
-              Swal.fire({
-                title: 'success!',
-                text: 'Send Email SuccessFully',
-                icon: 'success',
-                confirmButtonText: 'Done'
-              })
-            },
-            (error) => {
-              console.log('FAILED...', error.text);
-            },
-          );
-      };
+            .sendForm('service_oovwi0h', 'template_wimjvkb', form.current, {
+                publicKey: 'qS-a5L1lT37pLxrtR',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    Swal.fire({
+                        title: 'success!',
+                        text: 'Send Email SuccessFully',
+                        icon: 'success',
+                        confirmButtonText: 'Done'
+                    })
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
 
 
     return (
-        <div id='contact' className="bg-base-200 rounded-lg lg:mx-16 p-6 mt-12" >
-            <h2 className="text-4xl font-bold text-center pt-4 drop-shadow-xl">Contact Information</h2>
-            <div className="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-lg flex flex-col lg:flex-row lg:items-center gap-8 mt-8">
+        <div id='contact' className="lg:mx-16" >
+            <h2 className="text-4xl font-bold text-center pt-6 drop-shadow-xl">Contact Information</h2>
+            <div className="max-w-6xl mx-auto bg-red-50 p-6 rounded-lg shadow-md flex flex-col lg:flex-row lg:items-center gap-8 mt-8">
                 <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-4">Send an Email</h3>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-4">
                             <label htmlFor="name" className="block text-base font-medium mb-1">
@@ -44,7 +43,7 @@ const Contact = () => {
                                 type="text"
                                 id="name"
                                 name='from_name'
-                                className="w-full px-4 py-2 border rounded-lg"
+                                className="w-full px-4 py-2 rounded-lg"
                                 placeholder="Your Name"
                             />
                         </div>
@@ -56,7 +55,7 @@ const Contact = () => {
                                 type="email"
                                 id="email"
                                 name='from_email'
-                                className="w-full px-4 py-2 border rounded-lg"
+                                className="w-full px-4 py-2 rounded-lg"
                                 placeholder="Your Email"
                             />
                         </div>
@@ -68,13 +67,13 @@ const Contact = () => {
                                 id="message"
                                 name='message'
                                 rows="5"
-                                className="w-full px-4 py-2 h-20 border rounded-lg"
+                                className="w-full px-4 py-2 h-20 rounded-lg"
                                 placeholder="Your Message"
                             ></textarea>
                         </div>
                         <button
                             type="submit"
-                            className="btn btn-warning"
+                            className="py-2 px-4 font-semibold hover:bg-blue-700 rounded-md bg-blue-600 text-white"
                         >
                             Send Email
                         </button>

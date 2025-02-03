@@ -8,7 +8,7 @@ const ProjectsCrad = ({ project }) => {
     const { id, name, image, description } = project
     return (
         <div>
-            <div className="p-6 rounded-lg bg-base-100 border  shadow-xl">
+            <div className="p-6 rounded-lg bg-base-100 border hover:border-blue-600 shadow-md">
                 <figure>
                     <img
                         className=" rounded-lg"
@@ -19,7 +19,7 @@ const ProjectsCrad = ({ project }) => {
                     <h2 className="text-2xl font-bold">{name}</h2>
                     <p className="text-base font-medium text-gray-600">{description}</p>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-warning mt-3 w-full"><Link to={`/details/${id}`}>View Details</Link></button>
+                        <button className="py-2 px-6 font-semibold hover:bg-blue-700 rounded-md bg-blue-600 text-white mt-2 w-full"><Link to={`/details/${id}`}>View Details</Link></button>
                     </div>
                 </div>
             </div>

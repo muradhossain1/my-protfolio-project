@@ -37,8 +37,8 @@ const Details = () => {
                             <p className="text-base mt-1 font-medium text-gray-600">{progress}</p>
                         </div>
                         <div className=" flex items-center gap-4">
-                            <button className="btn btn-success text-white"><a href={liveLink}>Live Link</a></button>
-                            <button className="btn btn-warning"><a href={githubLink}>GitHub Link</a></button>
+                            <button className="py-2 px-6 font-semibold  rounded-md bg-blue-600 text-white"><a href={liveLink}>Live Link</a></button>
+                            <button className="py-2 px-6 font-semibold  rounded-md bg-green-600 text-white"><a href={githubLink}>GitHub Link</a></button>
                         </div>
                     </div>
                 </div>
