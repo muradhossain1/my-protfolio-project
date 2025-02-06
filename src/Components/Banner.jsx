@@ -25,7 +25,7 @@ const Banner = () => {
                         src={profileImg}
                         className="mx-auto rounded-lg shadow-2xl" />
                 </motion.div>
-                <div data-aos='fade-down' data-aos-duration="1000" className="md:w-1/2 space-y-6 ">
+                <div data-aos='fade-down' data-aos-duration="1000" className="md:w-1/2 space-y-6 mt-6 md:mt-0">
                     <div>
                         <h1 className="text-4xl font-bold"> Hi! <br></br> I&apos;m Murad Hossain</h1>
                         <p className="text-blue-600 uppercase mt-2 text-3xl font-bold">

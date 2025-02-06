@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png'
 
 const Navber = () => {
@@ -8,7 +9,7 @@ const Navber = () => {
         <li><a href="#contact" className="text-base font-bold">Contact Me</a></li>
     </>
     return (
-        <div className="navbar fixed z-10 bg-red-50 md:px-16 lg:px-32">
+        <div className="navbar fixed z-10 top-0 right-0 left-0 bg-red-50 md:px-16 lg:px-32">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +32,7 @@ const Navber = () => {
                         {links}
                     </ul>
                 </div>
-                <img src={logo} alt="" />
+                <Link to='/'><img src={logo} alt="" /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

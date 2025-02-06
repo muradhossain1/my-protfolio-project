@@ -11,7 +11,7 @@ const ProjectsCrad = ({ project }) => {
             <div className="p-6 rounded-lg bg-base-100 border hover:border-blue-600 shadow-md">
                 <figure>
                     <img
-                        className=" rounded-lg"
+                        className=" rounded-lg h-36"
                         src={image}
                         alt="photo" />
                 </figure>

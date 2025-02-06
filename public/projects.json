@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Blog Website",
-      "image": "https://i.ibb.co.com/J28gsmp/long-term-travel.jpg",
+      "image": "https://i.ibb.co.com/N64GPyV6/Screenshot-6.png",
       "description": "A blog website is an online platform where individuals or organizations regularly share articles, opinions, blog posts are organized or updates on various topics.",
       "technologies" : ["React", "Node.js", "MongoDB", "Express", "JWT"],
       "challenge" : "Blog website that highlights personal stories of individuals who have faced and overcome significant challenges in their lives.",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Chill Gamer project",
-      "image": "https://i.ibb.co.com/Yy14mDF/red-dead-redemption-2.jpg",
+      "image": "https://i.ibb.co.com/KcHTTFWj/Screenshot-3.png",
       "description": "Chill Gamer is a project aimed at creating a relaxed and friendly gaming community. It focuses on providing a space for gamers to enjoy their favorite games. ",
       "technologies" : ["React", "Node.js", "MongoDB", "Express", "JWT"],
       "challenge" : "It offers a space for gamers to share their stories of perseverance, highlight how gaming has helped them cope or build resilience, and inspire others to face challenges head-on.",
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "name": "Coupon Collecting Project",
-      "image": "https://i.ibb.co.com/7JM8hZH/decoration.jpg",
+      "image": "https://i.ibb.co.com/M5cFswQk/Screenshot-4.png",
       "description": "The Coupon Collecting Project is a fun and engaging initiative that revolves around collecting and exchanging coupons, often tied to discounts, rewards, or special offers.",
       "technologies" : ["React", "Node.js", "MongoDB", "Express", "JWT"],
       "challenge" : " Coupon Collecting is a website that blends the thrill of saving with personal growth. This platform invites users to share their experiences of facing challenges while collecting coupons, discounts, and special offers.",

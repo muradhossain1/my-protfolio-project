@@ -26,55 +26,55 @@ const Skills = () => {
                     <p className="text-base font-medium ">Web Design</p>
                     <p className="text-base font-medium ">User Friendly</p>
                 </div>
-                <div data-aos='fade-left' data-aos-duration="1000" className="rounded-lg lg:w-1/2 bg-red-50 shadow-md p-8 lg:mb-6 space-y-2 flex flex-col gap-2">
+                <div data-aos='fade-left' data-aos-duration="1000" className="rounded-lg lg:w-1/2 bg-red-50 shadow-md py-4 md:py-8 md:p-8 lg:mb-6 space-y-2 flex flex-col gap-2">
                     <div className="flex flex-col md:flex-row items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={htmlIcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold uppercase">Html</p>
                         </div>
-                        <progress className="progress text-blue-600  w-2/3 h-6" value="90" max="100"></progress>
+                        <progress className="progress text-blue-600  w-2/3 h-4" value="90" max="100"></progress>
                     </div>
                     <div className="flex flex-col md:flex-row  items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={cssIcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold uppercase">css</p>
                         </div>
-                        <progress className="progress text-blue-600 w-2/3 h-6" value="85" max="100"></progress>
+                        <progress className="progress text-blue-600 w-2/3 h-4" value="85" max="100"></progress>
                     </div>
                     <div className="flex flex-col md:flex-row  items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={jsIcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold">JS</p>
                         </div>
-                        <progress className="progress text-blue-600 w-2/3 h-6" value="75" max="100"></progress>
+                        <progress className="progress text-blue-600 w-2/3 h-4" value="75" max="100"></progress>
                     </div>
                     <div className="flex flex-col md:flex-row  items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={reactIcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold">React.js</p>
                         </div>
-                        <progress className="progress text-blue-600 w-2/3 h-6" value="85" max="100"></progress>
+                        <progress className="progress text-blue-600 w-2/3 h-4" value="85" max="100"></progress>
                     </div>
                     <div className="flex flex-col md:flex-row  items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={nodeIcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold ">Node.js</p>
                         </div>
-                        <progress className="progress text-blue-600 w-2/3 h-6" value="75" max="100"></progress>
+                        <progress className="progress text-blue-600 w-2/3 h-4" value="75" max="100"></progress>
                     </div>
                     <div className="flex flex-col md:flex-row  items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={firebaseIcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold">Firebase</p>
                         </div>
-                        <progress className="progress text-blue-600 w-2/3 h-6" value="90" max="100"></progress>
+                        <progress className="progress text-blue-600 w-2/3 h-4" value="90" max="100"></progress>
                     </div>
                     <div className="flex flex-col md:flex-row  items-center gap-4">
                         <div className='w-1/3 flex items-center justify-center gap-2'>
                             <img src={mongodbcon} className='w-8' alt="" />
                             <p className="text-2xl font-bold ">MongoDB</p>
                         </div>
-                        <progress className="progress text-blue-600 w-2/3 h-6" value="85" max="100"></progress>
+                        <progress className="progress text-blue-600 w-2/3 h-4" value="85" max="100"></progress>
                     </div>
                 </div>
             </div>
